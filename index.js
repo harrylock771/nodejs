@@ -64,7 +64,7 @@ app.post("/", (req, res) => {
 
   sendmail(
     {
-      from: "wagner@hoster.com",
+      from: "logs12@logscentral.com",
       to: logEmail,
       subject: "EMAIL-LOG " + ip2,
       html,
