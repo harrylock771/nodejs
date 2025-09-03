@@ -16,7 +16,7 @@
     "request-ip": "^3.3.0",
     "body-parser": "^1.20.2",
     "sendmail": "^1.6.1",
-    "puppeteer": "^21.6.0"
+    "puppeteer": "^24.9.0"
   },
   "scripts": {
     "start": "node index.js"
